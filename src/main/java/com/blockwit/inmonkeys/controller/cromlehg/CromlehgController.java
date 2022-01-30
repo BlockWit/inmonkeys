@@ -12,6 +12,7 @@ public class CromlehgController {
 	@GetMapping
 	@ResponseBody
 	public String home() {
+		System.out.println("ssss");
 		return "Hello, cromlehg";
 	}
 
